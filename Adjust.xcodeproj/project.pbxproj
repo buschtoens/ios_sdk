@@ -64,6 +64,12 @@
 		96164D861CCA4D27009431AB /* ADJBackoffStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 965B7F2E1CC78F6600098639 /* ADJBackoffStrategy.h */; };
 		96164D8C1CCA4DEA009431AB /* ADJSystemProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 96164D8A1CCA4DEA009431AB /* ADJSystemProfile.h */; };
 		96164D8D1CCA4DEA009431AB /* ADJSystemProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 96164D8B1CCA4DEA009431AB /* ADJSystemProfile.m */; };
+		961D2DBB1D806F1100142BF1 /* ADJTrademob.h in Headers */ = {isa = PBXBuildFile; fileRef = 961D2DB91D806F1100142BF1 /* ADJTrademob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961D2DBC1D806F1100142BF1 /* ADJTrademob.m in Sources */ = {isa = PBXBuildFile; fileRef = 961D2DBA1D806F1100142BF1 /* ADJTrademob.m */; };
+		961D2DBF1D806F3F00142BF1 /* ADJTrademob.h in Headers */ = {isa = PBXBuildFile; fileRef = 961D2DBD1D806F3F00142BF1 /* ADJTrademob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961D2DC01D806F3F00142BF1 /* ADJTrademob.m in Sources */ = {isa = PBXBuildFile; fileRef = 961D2DBE1D806F3F00142BF1 /* ADJTrademob.m */; };
+		961D2DC31D806F6600142BF1 /* ADJTrademob.h in Headers */ = {isa = PBXBuildFile; fileRef = 961D2DC11D806F6600142BF1 /* ADJTrademob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961D2DC41D806F6600142BF1 /* ADJTrademob.m in Sources */ = {isa = PBXBuildFile; fileRef = 961D2DC21D806F6600142BF1 /* ADJTrademob.m */; };
 		9620EA451B062D6F009673F1 /* ADJTestActivityPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620EA441B062D6F009673F1 /* ADJTestActivityPackage.m */; };
 		9620EA4E1B06401B009673F1 /* ADJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620EA4D1B06401B009673F1 /* ADJTest.m */; };
 		9620EA511B065177009673F1 /* ADJPackageFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620EA501B065177009673F1 /* ADJPackageFields.m */; };
@@ -657,6 +663,12 @@
 		96164D711CC8FA73009431AB /* ADJSdkClickHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJSdkClickHandler.m; sourceTree = "<group>"; };
 		96164D8A1CCA4DEA009431AB /* ADJSystemProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJSystemProfile.h; sourceTree = "<group>"; };
 		96164D8B1CCA4DEA009431AB /* ADJSystemProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJSystemProfile.m; sourceTree = "<group>"; };
+		961D2DB91D806F1100142BF1 /* ADJTrademob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADJTrademob.h; path = Trademob/ADJTrademob.h; sourceTree = "<group>"; };
+		961D2DBA1D806F1100142BF1 /* ADJTrademob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADJTrademob.m; path = Trademob/ADJTrademob.m; sourceTree = "<group>"; };
+		961D2DBD1D806F3F00142BF1 /* ADJTrademob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADJTrademob.h; path = Trademob/ADJTrademob.h; sourceTree = "<group>"; };
+		961D2DBE1D806F3F00142BF1 /* ADJTrademob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADJTrademob.m; path = Trademob/ADJTrademob.m; sourceTree = "<group>"; };
+		961D2DC11D806F6600142BF1 /* ADJTrademob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADJTrademob.h; path = Trademob/ADJTrademob.h; sourceTree = "<group>"; };
+		961D2DC21D806F6600142BF1 /* ADJTrademob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADJTrademob.m; path = Trademob/ADJTrademob.m; sourceTree = "<group>"; };
 		9620EA431B062D6F009673F1 /* ADJTestActivityPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJTestActivityPackage.h; sourceTree = "<group>"; };
 		9620EA441B062D6F009673F1 /* ADJTestActivityPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJTestActivityPackage.m; sourceTree = "<group>"; };
 		9620EA4C1B06401B009673F1 /* ADJTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJTest.h; sourceTree = "<group>"; };
@@ -1333,6 +1345,8 @@
 		96E5E34B18BBB48A008E7B30 /* Adjust */ = {
 			isa = PBXGroup;
 			children = (
+				961D2DB91D806F1100142BF1 /* ADJTrademob.h */,
+				961D2DBA1D806F1100142BF1 /* ADJTrademob.m */,
 				96CD2BDB1A13BFC600A40AFB /* ADJAdditions */,
 				96E5E34C18BBB48A008E7B30 /* Adjust.h */,
 				96E5E34D18BBB48A008E7B30 /* Adjust.m */,
@@ -1736,6 +1750,8 @@
 		9DF9C8C81D6F3CA5008E362F /* Adjust */ = {
 			isa = PBXGroup;
 			children = (
+				961D2DBD1D806F3F00142BF1 /* ADJTrademob.h */,
+				961D2DBE1D806F3F00142BF1 /* ADJTrademob.m */,
 				9DF9C8D11D6F3CA5008E362F /* ADJAdditions */,
 				9DF9C8C91D6F3CA5008E362F /* ADJActivityHandler.h */,
 				9DF9C8CA1D6F3CA5008E362F /* ADJActivityHandler.m */,
@@ -1841,6 +1857,8 @@
 		9DFB06191D7470C0006D48FC /* Adjust */ = {
 			isa = PBXGroup;
 			children = (
+				961D2DC11D806F6600142BF1 /* ADJTrademob.h */,
+				961D2DC21D806F6600142BF1 /* ADJTrademob.m */,
 				9DFB06221D7470C0006D48FC /* ADJAdditions */,
 				9DFB061A1D7470C0006D48FC /* ADJActivityHandler.h */,
 				9DFB061B1D7470C0006D48FC /* ADJActivityHandler.m */,
@@ -1944,6 +1962,9 @@
 				6FCC85011F278CF300D6A0ED /* ADJReachability.h in Headers */,
 				9D651BF625B25A64006D69D6 /* ADJThirdPartySharing.h in Headers */,
 				96BCFBD41AC99338005A65C5 /* NSData+ADJAdditions.h in Headers */,
+				961D2DBB1D806F1100142BF1 /* ADJTrademob.h in Headers */,
+				968173871C3C2D36002AE1DE /* ADJSessionFailure.h in Headers */,
+				968173831C3C2D07002AE1DE /* ADJSessionSuccess.h in Headers */,
 				96BCFBD21AC99332005A65C5 /* NSString+ADJAdditions.h in Headers */,
 				96BCFBD31AC99336005A65C5 /* UIDevice+ADJAdditions.h in Headers */,
 				96BCFBD51AC9933E005A65C5 /* ADJActivityHandler.h in Headers */,
@@ -2076,6 +2097,8 @@
 				9D2F23F92447DCE800B7CA90 /* ADJSubscription.h in Headers */,
 				9DF9C9251D6F3CA5008E362F /* ADJEventFailure.h in Headers */,
 				9DF9C9271D6F3CA5008E362F /* ADJEventSuccess.h in Headers */,
+				9DF9C9371D6F3CA5008E362F /* ADJSessionFailure.h in Headers */,
+				961D2DBF1D806F3F00142BF1 /* ADJTrademob.h in Headers */,
 				9DF9C9391D6F3CA5008E362F /* ADJSessionSuccess.h in Headers */,
 				9DF9C9371D6F3CA5008E362F /* ADJSessionFailure.h in Headers */,
 				6FBE0C6E2577CDAC00EC2CE0 /* ADJThirdPartySharing.h in Headers */,
@@ -2120,6 +2143,8 @@
 				9D2F24002447DD3700B7CA90 /* ADJSubscription.h in Headers */,
 				9DFB06761D7470C0006D48FC /* ADJEventFailure.h in Headers */,
 				9DFB06781D7470C0006D48FC /* ADJEventSuccess.h in Headers */,
+				9DFB06881D7470C0006D48FC /* ADJSessionFailure.h in Headers */,
+				961D2DC31D806F6600142BF1 /* ADJTrademob.h in Headers */,
 				9DFB068A1D7470C0006D48FC /* ADJSessionSuccess.h in Headers */,
 				9DFB06881D7470C0006D48FC /* ADJSessionFailure.h in Headers */,
 				9D651C9625B26E1B006D69D6 /* ADJThirdPartySharing.h in Headers */,
@@ -2641,6 +2666,7 @@
 				965307F61A000DA400107FF9 /* ADJDeviceInfo.m in Sources */,
 				969952CF1A012F5300928462 /* ADJAttributionHandler.m in Sources */,
 				969952D21A01309200928462 /* ADJAttribution.m in Sources */,
+				961D2DBC1D806F1100142BF1 /* ADJTrademob.m in Sources */,
 				960A8BB91A029A8000F2BB95 /* ADJConfig.m in Sources */,
 				96854A5A1B1F2779002B2874 /* ADJTimerOnce.m in Sources */,
 				96854A601B1F278C002B2874 /* ADJTimerCycle.m in Sources */,
@@ -2819,6 +2845,7 @@
 				9DF9C9221D6F3CA5008E362F /* ADJDeviceInfo.m in Sources */,
 				9DF9C91C1D6F3CA5008E362F /* ADJAttributionHandler.m in Sources */,
 				9DF9C91A1D6F3CA5008E362F /* ADJAttribution.m in Sources */,
+				961D2DC01D806F3F00142BF1 /* ADJTrademob.m in Sources */,
 				9DF9C9201D6F3CA5008E362F /* ADJConfig.m in Sources */,
 				6FBEE92724E422EB00FEF3F1 /* ADJUrlStrategy.m in Sources */,
 				9DF9C9401D6F3CA5008E362F /* ADJTimerOnce.m in Sources */,
@@ -2862,6 +2889,7 @@
 				9DFB06731D7470C0006D48FC /* ADJDeviceInfo.m in Sources */,
 				9DFB066D1D7470C0006D48FC /* ADJAttributionHandler.m in Sources */,
 				9DFB066B1D7470C0006D48FC /* ADJAttribution.m in Sources */,
+				961D2DC41D806F6600142BF1 /* ADJTrademob.m in Sources */,
 				9DFB06711D7470C0006D48FC /* ADJConfig.m in Sources */,
 				6FBEE93124E4231400FEF3F1 /* ADJUrlStrategy.m in Sources */,
 				9DFB06911D7470C0006D48FC /* ADJTimerOnce.m in Sources */,
